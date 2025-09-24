@@ -134,10 +134,12 @@ document.addEventListener('DOMContentLoaded', function() {
                         <p><strong>Numéro d'électeur:</strong> ${voter.id || voter.numero}</p>
                         <p><strong>Nom:</strong> ${voter.nom}</p>
                         <p><strong>Prénom:</strong> ${voter.prenom}</p>
-                        <p><strong>Date de naissance:</strong> ${formatDate(voter.date_naissance)}</p>
                         <p><strong>Bureau de vote:</strong> ${voter.bureau_vote}</p>
                         <p><strong>Commune:</strong> ${voter.commune || 'Non spécifié'}</p>
                         <p><strong>Circonscription:</strong> ${voter.circonscription || 'Non spécifié'}</p>
+                    </div>
+                    <div class="result-note">
+                        <p><em>Pour des raisons de protection des données personnelles, certaines informations sensibles ne sont pas affichées.</em></p>
                     </div>
                     <div class="result-actions">
                         <button onclick="window.print()" class="btn btn-secondary">Imprimer cette page</button>
@@ -202,10 +204,12 @@ document.addEventListener('DOMContentLoaded', function() {
                         <p><strong>Numéro d'électeur:</strong> ${voter.id || voter.numero}</p>
                         <p><strong>Nom:</strong> ${voter.nom}</p>
                         <p><strong>Prénom:</strong> ${voter.prenom}</p>
-                        <p><strong>Date de naissance:</strong> ${formatDate(voter.date_naissance)}</p>
                         <p><strong>Bureau de vote:</strong> ${voter.bureau_vote}</p>
                         <p><strong>Commune:</strong> ${voter.commune || 'Non spécifié'}</p>
                         <p><strong>Circonscription:</strong> ${voter.circonscription || 'Non spécifié'}</p>
+                    </div>
+                    <div class="result-note">
+                        <p><em>Pour des raisons de protection des données personnelles, certaines informations sensibles ne sont pas affichées.</em></p>
                     </div>
                     <div class="result-actions">
                         <button onclick="window.print()" class="btn btn-secondary">Imprimer cette page</button>
@@ -220,7 +224,6 @@ document.addEventListener('DOMContentLoaded', function() {
                     <ul>
                         <li><strong>Nom:</strong> ${lastName}</li>
                         <li><strong>Prénom:</strong> ${firstName}</li>
-                        <li><strong>Date de naissance:</strong> ${formatDate(birthDate)}</li>
                     </ul>
                     <p>Veuillez vérifier votre saisie ou contacter le centre d'inscription électoral.</p>
                     <div class="suggestions">
@@ -263,22 +266,6 @@ document.addEventListener('DOMContentLoaded', function() {
             resultContent.innerHTML = '';
             resultSection.style.display = 'none';
         }
-    }
-    
-    // Fonction pour formater la date
-    function formatDate(dateString) {
-        if (!dateString) return 'Non spécifié';
-        
-        const date = new Date(dateString);
-        if (isNaN(date.getTime())) {
-            return dateString; // Retourner la chaîne originale si ce n'est pas une date valide
-        }
-        
-        return date.toLocaleDateString('fr-FR', {
-            year: 'numeric',
-            month: 'long',
-            day: 'numeric'
-        });
     }
     
     // Indicateur de statut de chargement dans la console
