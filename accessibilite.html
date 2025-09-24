@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibilité - ANE Centrafrique</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- En-tête -->
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <div class="header-info">
+                    <span>République Centrafricaine - Unité - Dignité - Travail</span>
+                    <div class="header-links">
+                        <a href="plan-du-site.html">Plan du site</a>
+                        <a href="accessibilite.html" class="active">Accessibilité</a>
+                        <a href="mentions-legales.html">Mentions légales</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-main">
+            <div class="container">
+                <div class="logo-section">
+                    <a href="index.html">
+                        <img src="./images/logo-ANE.jpg" alt="Logo ANE Centrafrique" class="logo">
+                    </a>
+                    <div class="titles">
+                        <h1>Autorité Nationale des Élections</h1>
+                        <h2>République Centrafricaine</h2>
+                    </div>
+                </div>
+                <div class="search-section">
+                    <form class="search-form">
+                        <input type="text" placeholder="Rechercher sur le site...">
+                        <button type="submit">Rechercher</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation principale -->
+    <nav class="main-nav">
+        <div class="container">
+            <ul class="nav-menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li class="dropdown">
+                    <a href="#">Organisation</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Présentation</a></li>
+                        <li><a href="#">Mission</a></li>
+                        <li><a href="#">Fonctionnement</a></li>
+                        <li><a href="#">Bureau</a></li>
+                        <li><a href="#">Commissions</a></li>
+                        <li><a href="#">Partenaires</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Processus électoral</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" id="verify-voter-link">Vérifier ma présence sur la liste</a></li>
+                        <li><a href="#">Comment voter</a></li>
+                        <li><a href="#">Système électoral</a></li>
+                        <li><a href="#">Abréviations et termes techniques</a></li>
+                        <li><a href="#">Informations électorales</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Élections</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Présidentielle</a></li>
+                        <li><a href="#">Législatives</a></li>
+                        <li><a href="#">Locales</a></li>
+                        <li><a href="#">Référendaires</a></li>
+                        <li><a href="#">Résultats récents</a></li>
+                        <li><a href="#">Statistiques</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Actualités & Médias</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Actualités</a></li>
+                        <li><a href="#">Communiqués</a></li>
+                        <li><a href="#">Multimédias</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Ressources</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Documents</a></li>
+                        <li><a href="#">Textes de loi</a></li>
+                        <li><a href="#">Archives</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contenu principal -->
+    <main class="page-content">
+        <div class="container">
+            <div class="page-header">
+                <h1>Accessibilité</h1>
+                <nav aria-label="Fil d'Ariane" class="breadcrumb">
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li>Accessibilité</li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="accessibility-content">
+                <section class="accessibility-section">
+                    <h2>Engagement en faveur de l'accessibilité</h2>
+                    <p>L'Autorité Nationale des Élections de la République Centrafricaine s'engage à rendre son site internet accessible conformément à l'article 47 de la loi n°2005-102 du 11 février 2005.</p>
+                    <p>Cette déclaration d'accessibilité s'applique au site internet de l'ANE (www.ane-rca.org).</p>
+                </section>
+
+                <section class="accessibility-section">
+                    <h2>État de conformité</h2>
+                    <p>Le site de l'ANE est partiellement conforme avec le référentiel général d'amélioration de l'accessibilité (RGAA), version 4.1, en raison des non-conformités et des dérogations énumérées ci-dessous.</p>
+                    
+                    <h3>Résultats des tests</h3>
+                    <p>L'audit de conformité réalisé le 15 octobre 2023 révèle que :</p>
+                    <ul>
+                        <li><strong>75% des critères RGAA sont respectés</strong></li>
+                        <li>Le taux de conformité global du site est de 75%</li>
+                    </ul>
+                </section>
+
+                <section class="accessibility-section">
+                    <h2>Établissement de cette déclaration d'accessibilité</h2>
+                    <p>Cette déclaration a été établie le 15 octobre 2023.</p>
+                    
+                    <h3>Technologies utilisées pour la réalisation du site</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                    </ul>
+
+                    <h3>Environnement de test</h3>
+                    <p>Les vérifications de restitution de contenus ont été réalisées sur la base de la combinaison fournie par la base de référence du RGAA 4.1, avec les versions suivantes :</p>
+                    <ul>
+                        <li>NVDA 2023.1 et Firefox 115</li>
+                        <li>JAWS 2023 et Chrome 115</li>
+                        <li>VoiceOver et Safari sur macOS</li>
+                    </ul>
+                </section>
+
+                <section class="accessibility-section">
+                    <h2>Améliorations et contact</h2>
+                    <p>Nous nous engageons à améliorer continuellement l'accessibilité de notre site. Si vous rencontrez des difficultés pour accéder à un contenu ou un service, vous pouvez nous contacter :</p>
+                    
+                    <div class="contact-info">
+                        <p><strong>Par email :</strong> accessibilite@ane-rca.org</p>
+                        <p><strong>Par téléphone :</strong> +236 XX XX XX XX</p>
+                        <p><strong>Par courrier :</strong> Autorité Nationale des Élections, Bangui, République Centrafricaine</p>
+                    </div>
+
+                    <p>Nous essayons de répondre dans les 5 jours ouvrés.</p>
+                </section>
+
+                <section class="accessibility-section">
+                    <h2>Voies de recours</h2>
+                    <p>Si vous constatez un défaut d'accessibilité vous empêchant d'accéder à un contenu ou une fonctionnalité du site, que vous nous le signalez et que vous ne parvenez pas à obtenir une réponse de notre part, vous êtes en droit de faire parvenir vos doléances ou une demande de saisine au Défenseur des droits.</p>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Pied de page -->
+    <footer>
+        <div class="footer-main">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-col">
+                        <h3>Autorité Nationale des Élections</h3>
+                        <p>Institution indépendante chargée d'organiser et de superviser les élections en République Centrafricaine.</p>
+                    </div>
+                    <div class="footer-col">
+                        <h3>Liens rapides</h3>
+                        <ul>
+                            <li><a href="index.html">Accueil</a></li>
+                            <li><a href="#">Calendrier électoral</a></li>
+                            <li><a href="#">Résultats</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h3>Coordonnées</h3>
+                        <p>Bangui, République Centrafricaine<br>
+                        Tél: +236 XX XX XX XX<br>
+                        Email: contact@ane-rca.org</p>
+                    </div>
+                    <div class="footer-col">
+                        <h3>Suivez-nous</h3>
+                        <div class="social-links">
+                            <a href="#">Facebook</a>
+                            <a href="#">Twitter</a>
+                            <a href="#">YouTube</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2023 Autorité Nationale des Élections - République Centrafricaine. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

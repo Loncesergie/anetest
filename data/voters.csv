@@ -1,0 +1,14 @@
+id,nom,prenom,date_naissance,bureau_vote,commune,circonscription
+123456,KOUNA,Jean,1980-05-15,École Centre-ville,Bangui 1,1ère Circonscription
+234567,MBALLA,Marie,1985-08-22,Collège Ouest,Bangui 2,2ème Circonscription
+345678,NGOUPANDOU,Pierre,1975-12-10,Lycée Est,Bangui 3,3ème Circonscription
+456789,SAMBA,Alice,1990-03-30,École Primaire Bimbo,Bimbo,4ème Circonscription
+567890,YAKITE,Paul,1982-07-18,Centre Communautaire Begoua,Begoua,5ème Circonscription
+678901,DOUNIAM,Claire,1988-11-05,École de Miskine,Bangui 4,1ère Circonscription
+789012,GANGA,Michel,1978-04-18,Collège de Gobongo,Bangui 5,2ème Circonscription
+890123,KOYAMBA,Sophie,1992-09-22,Lycée de Kokoro,Bangui 6,3ème Circonscription
+901234,LOUMBA,David,1984-12-30,École de Pétévo,Bangui 7,4ème Circonscription
+012345,MBAÏKOUA,Anne,1972-07-14,Centre de Damala,Bangui 8,5ème Circonscription
+112233,BETTO,Jones,1980-09-05,Plateau,Bimbo,1ère Circonscription
+223344,MAKANDA,Prince,1986-02-17,Miskine,Bangui 2,2ème Circonscription
+334455,KOGBOMA,Elvia,1979-06-25,Gobongo,Bangui 3,3ème Circonscription
